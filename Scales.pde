@@ -2,8 +2,8 @@ void setup() {
   size(500, 500);
   noLoop();
 }
+boolean shift = true;
 void draw() {
-  boolean shift = true;
   for(int y = 520; y >= -30; y -= 25){
     for(int x = 0; x <= 510; x += 52){
       if(shift==true)
